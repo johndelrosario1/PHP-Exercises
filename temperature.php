@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>Document</title>
 </head>
-
 <body>
-<h2>Task 1. Introduce yourself</h2>
-<?php
-    $name = "John Manuel C. Del Rosario";
-    $age = 20;
+    <h2>Task 4. Temperature Converter</h2>
+    <?php
+    $celsius = 25; 
 
-    echo "Hi, my name is " . $name . ".<br>";
-    echo "I am " . $age . " years old.";
+    $fahrenheit = ($celsius * 9/5) + 32;
+
+    echo "Celsius: $celsius °C <br>";
+    echo "Fahrenheit: $fahrenheit °F";
 ?>
  <style>
   body{

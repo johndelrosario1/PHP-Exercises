@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>Document</title>
 </head>
-
 <body>
-<h2>Task 1. Introduce yourself</h2>
-<?php
-    $name = "John Manuel C. Del Rosario";
-    $age = 20;
+    <h2>Task 3. Area and Perimeter of a Rectangle</h2>
+    <?php
+    $length = 8; 
+    $width = 5;  
 
-    echo "Hi, my name is " . $name . ".<br>";
-    echo "I am " . $age . " years old.";
+   
+    $area = $length * $width;
+    $perimeter = 2 * ($length + $width);
+
+
+    echo "Length: $length <br>";
+    echo "Width: $width <br>";
+    echo "Area of Rectangle: $area <br>";
+    echo "Perimeter of Rectangle: $perimeter <br>";
 ?>
  <style>
   body{

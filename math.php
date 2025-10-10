@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>Document</title>
 </head>
-
 <body>
-<h2>Task 1. Introduce yourself</h2>
-<?php
-    $name = "John Manuel C. Del Rosario";
-    $age = 20;
+    <h2>Task 2. Simple Math</h2>
+    <?php
+    $a = 10;
+    $b = 10;
 
-    echo "Hi, my name is " . $name . ".<br>";
-    echo "I am " . $age . " years old.";
+    echo "Addition: " . ($a + $b) . "<br>";
+    echo "Subtraction: " . ($a - $b) . "<br>";
+    echo "Multiplication: " . ($a * $b) . "<br>";
+    echo "Division: " . ($a / $b) . "<br>";
 ?>
  <style>
   body{

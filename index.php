@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP-Exercises</title>
 </head>
+<h1> Welcome to my Php Exercises</h1>
 <body>
-    <ul>
+    <ol>
         <li> <a href="intro.php">Introduce Yourself  </a></li>
-        <li><a href="math.php"></a></li>
-    </ul>
+        <li><a href="math.php">Math</a></li>
+        <li> <a href="area.php">Area and Perimeter</a></li>
+        <li><a href="temperature.php">Temperature Converter</a></li>
+        <li> <a href="swapping.php">Swapping Variables</a></li>
+
+</ol>
 <style>
   body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: forestgreen;
+    background-color: #AA98A9;
     text-align: center;
     padding: 50px;
   }

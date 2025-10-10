@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>Document</title>
 </head>
-
 <body>
-<h2>Task 1. Introduce yourself</h2>
-<?php
-    $name = "John Manuel C. Del Rosario";
-    $age = 20;
+    <h2>Task 5. Swapping Variables</h2>
+    <?php
+    $a = 5;
+    $b = 10;
 
-    echo "Hi, my name is " . $name . ".<br>";
-    echo "I am " . $age . " years old.";
+    echo "Before Swap: A = $a, B = $b <br>";
+
+
+    $temp = $a;
+    $a = $b;
+    $b = $temp;
+
+    echo "After Swap: A = $a, B = $b";
 ?>
  <style>
   body{
