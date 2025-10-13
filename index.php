@@ -13,6 +13,13 @@
         <li> <a href="area.php">Area and Perimeter</a></li>
         <li><a href="temperature.php">Temperature Converter</a></li>
         <li> <a href="swapping.php">Swapping Variables</a></li>
+        <li> <a href="salary.php">Salary Calculator</a></li>
+        <li> <a href="bmi.php">BMI Calculator</a></li>
+        <li> <a href="string.php">String Manipulation</a></li>
+        <li> <a href="bank.php">Bankl Account Simulation</a></li>
+        <li> <a href="grading.php">Simple Grading System</a></li>
+        <li> <a href="currency.php">Currency Converter</a></li>
+        <li> <a href="travel.php">Travel Cost Estimator</a></li>
 
 </ol>
 <style>
@@ -21,6 +28,9 @@
     background-color: #AA98A9;
     text-align: center;
     padding: 50px;
+  }
+  h1{
+    text-align: center;
   }
 </style>
 </body>

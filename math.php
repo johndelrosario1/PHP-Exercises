@@ -11,6 +11,8 @@
     $a = 10;
     $b = 10;
 
+    echo "a= $a <br>";
+    echo "b= $b <br>";
     echo "Addition: " . ($a + $b) . "<br>";
     echo "Subtraction: " . ($a - $b) . "<br>";
     echo "Multiplication: " . ($a * $b) . "<br>";
