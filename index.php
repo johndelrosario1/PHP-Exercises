@@ -25,7 +25,7 @@
 <style>
   body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #AA98A9;
+    background-color:#012345;
     text-align: center;
     padding: 50px;
   }

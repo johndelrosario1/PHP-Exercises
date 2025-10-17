@@ -8,13 +8,10 @@
 
 <body>
 <h2>Task 1. Introduce yourself</h2>
-<?php
-    $name = "John Manuel C. Del Rosario";
-    $age = 20;
-
-    echo "Hi, my name is " . $name . ".<br>";
-    echo "I am " . $age . " years old.";
-?>
+<form action="form.php" method="post">
+    Name: <input type="text" name="name"><br>
+    Age: <input type="number" name="age"><br>  <input type="submit">
+</form>
  <style>
   body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
